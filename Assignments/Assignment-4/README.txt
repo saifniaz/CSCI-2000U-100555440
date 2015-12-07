@@ -8,4 +8,6 @@ Directory Contain:
 - data_process.ipynb
 - halo.dat
 - snapshot_010.dat
+- JSAnimation
+
 
