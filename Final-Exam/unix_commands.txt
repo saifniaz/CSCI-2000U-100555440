@@ -5,6 +5,7 @@
 # Enter the relevant Unix command(s) used below.
 
 
+ cat classlist.csv | tail -130
 
 
 # part (b)
@@ -13,6 +14,7 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
+ cat classlist.csv | tail -130 | wc -l
 
 
 
@@ -24,7 +26,7 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
-
+sort classlist.csv
 
 
 # part (d)
@@ -33,7 +35,7 @@
 # repeated in the class list?
 # Enter the relevant name(s) and the Unix command(s) below.
 
-
+grep 
 
 
 # part (f) [BONUS]
@@ -41,3 +43,5 @@
 # the student number and the first character of the first name to make
 # a four-character identifier for each student.
 # Enter the relevant Unix command(s) used below.
+
+grep 100528929
